@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: rag-chatbot
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run chatbot_gemini.py --server.port 10000 --server.address 0.0.0.0"
-    envVars:
-      - key: GEMINI_API_KEY
-        sync: false
