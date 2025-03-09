@@ -11,7 +11,7 @@ import google.generativeai as genai
 if __name__ == "__main__":
     import os
     port = int(os.environ.get("PORT", 8501))  # Default Streamlit port
-    st.run()
+   # st.run()
 
 
 # Φόρτωση μεταβλητών περιβάλλοντος από το .env
