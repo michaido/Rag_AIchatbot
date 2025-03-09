@@ -9,12 +9,12 @@ To get started, clone this repository and navigate into the project folder:
 git clone https://github.com/michaido/rag_AIchatbot.git
 cd rag_AIchatbot
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 Ensure you have Python installed, then install the required dependencies:
 ```bash
 pip install -r requirements.txt
 
-3️⃣ Set up environment variables
+### 3️⃣ Set up environment variables
 Create a .env file in the root directory and add your Google Gemini API key:
 ```bash
 GEMINI_API_KEY=your_api_key_here
@@ -23,7 +23,7 @@ Alternatively, use an environment variable:
 ```bash
 export GEMINI_API_KEY=your_api_key_here
 
-4️⃣ Run the chatbot
+### 4️⃣ Run the chatbot
 Start the chatbot using Streamlit:
 ```bash
 streamlit run chatbot_gemini.py
