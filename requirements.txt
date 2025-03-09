@@ -1,0 +1,10 @@
+streamlit
+faiss-cpu
+numpy
+pickle5
+sentence-transformers
+python-dotenv
+google-generativeai
+pdfplumber
+pypdf
+pandas
