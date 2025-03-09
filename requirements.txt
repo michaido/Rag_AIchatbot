@@ -1,10 +1,9 @@
 streamlit
 faiss-cpu
 numpy
-pickle5
-sentence-transformers
-python-dotenv
+pandas
 google-generativeai
+python-dotenv
 pdfplumber
 pypdf
-pandas
+sentence-transformers
