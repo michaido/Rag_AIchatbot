@@ -8,6 +8,12 @@ import numpy as np
 from dotenv import load_dotenv
 import google.generativeai as genai
 
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 8501))  # Default Streamlit port
+    st.run()
+
+
 # Φόρτωση μεταβλητών περιβάλλοντος από το .env
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
