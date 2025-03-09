@@ -4,10 +4,12 @@ This is an interactive AI chatbot that uses Retrieval-Augmented Generation (RAG)
 
 ## 🚀 Setup Instructions
 
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 To get started, clone this repository and navigate into the project folder:
-git clone https://github.com/michaido/rag_AIchatbot.git
-cd rag_AIchatbot
+```bash
+git clone https://github.com/michaido/rag_Alchatbot.git
+cd rag_Alchatbot
+
 
 2️⃣ Install dependencies
 Ensure you have Python installed, then install the required dependencies:
