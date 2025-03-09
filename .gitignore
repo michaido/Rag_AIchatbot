@@ -169,10 +169,3 @@ cython_debug/
 # Αγνοούμε το API Key αρχείο
 .env
 
-# Αγνοούμε τα μεγάλα αρχεία FAISS και RAG
-#index.pkl
-#rag_df.pkl
-
-
-# PyPI configuration file
-.pypirc
