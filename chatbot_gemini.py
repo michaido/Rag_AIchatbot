@@ -57,8 +57,8 @@ index_file = "index.pkl"
 with open(index_file, "rb") as fh:
     index, rag_df = pickle.load(fh)
 
-with st.sidebar:
-    st.image("IHU_logo_blue_clear_gr.png", width=150)
+#with st.sidebar:
+ #   st.image("IHU_logo_blue_clear_gr.png", width=150)
 
 st.title("Διαλογικός βοηθός διαχείρισης της έρευνας στον ΕΛΚΕ")
 st.header("Ρωτήστε σχετικά με τρόπους διαχείρισης της έρευνας")
