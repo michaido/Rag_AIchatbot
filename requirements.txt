@@ -1,9 +1,9 @@
 streamlit
 faiss-cpu
+sentence-transformers
 numpy
-pandas
 google-generativeai
 python-dotenv
 pdfplumber
 pypdf
-sentence-transformers
+
