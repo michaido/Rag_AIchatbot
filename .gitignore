@@ -170,8 +170,8 @@ cython_debug/
 .env
 
 # Αγνοούμε τα μεγάλα αρχεία FAISS και RAG
-index.pkl
-rag_df.pkl
+#index.pkl
+#rag_df.pkl
 
 
 # PyPI configuration file
